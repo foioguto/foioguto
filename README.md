@@ -1,4 +1,28 @@
-<h5 align="left">class Pytonic:<br>    <br>def __init__(self, name, country, college, focus):<br>        self.name = name<br>        self.country = country<br>        self.college = college<br>        self.focus = focus<br>        self.goal = "Become a better version of myself every day"<br>        self.status = "Looking for my first internship"<br><br>    def __str__(self):<br>        return (f"{self.name}, a Software Engineering student from {self.country}, "<br>                f"studying at {self.college}. Passionate about {self.focus}.")<br><br>augusto = Pytonic(<br>    name="Augusto César",<br>    country="Brazil",<br>    college="iCEV College",<br>    focus="Data Science"<br>)<br><br>print(augusto)</h5>
+```python
+class Pytonic:
+    
+    def __init__(self, name, country, college, focus):        
+        self.name = name        
+        self.country = country        
+        self.college = college        
+        self.focus = focus        
+        self.goal = "Become a better version of myself every day"        
+        self.status = "Looking for my first internship"    
+
+    def __str__(self):        
+        return (f"{self.name}, a Software Engineering student from {self.country}, "
+                f"studying at {self.college}. Passionate about {self.focus}.")
+
+augusto = Pytonic(
+    name="Augusto César",
+    country="Brazil",
+    college="iCEV College",
+    focus="Data Science"
+)
+
+print(augusto)
+
+```
 
 ###
 
